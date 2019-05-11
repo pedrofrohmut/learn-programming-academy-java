@@ -1,3 +1,5 @@
+package classes;
+
 public class MegaBytesConverter {
     public static void printMegaBytesAndKiloBytes(final int kilobytes) {
         if (kilobytes < 0) {

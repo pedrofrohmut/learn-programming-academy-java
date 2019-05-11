@@ -1,3 +1,5 @@
+package classes;
+
 public class BarkingDog {
 
     public static boolean shouldWakeUp(

@@ -1,3 +1,5 @@
+package classes;
+
 public class LeapYear {
 
     public static boolean isLeapYear(final int year) {
