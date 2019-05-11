@@ -15,12 +15,10 @@ public class LeapYear {
     }
 
     public static void main(String[] args) {
-        // Range Exception for smallest
         if (isLeapYear(0) == true) {
             throw new IllegalArgumentException("Year must be greater than 1");
         }
 
-        // Range Exception for biggest
         if (isLeapYear(10000) == true) {
             throw new IllegalArgumentException("Year must be less 10000");
         }
